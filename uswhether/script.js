@@ -4,7 +4,7 @@ $("#btn").click(function(){
 var city = $("#city").val();
   var xhttp = new XMLHttpRequest();
     var data = {};
-    var link = "http://api.openweathermap.org/data/2.5/weather?q=" + city + ",us&units=imperial&APPID=710d968a9a3a8f2c6da4dc4dfa8ec87b"
+    var link = "https://api.openweathermap.org/data/2.5/weather?q=" + city + ",us&units=imperial&APPID=710d968a9a3a8f2c6da4dc4dfa8ec87b"
     xhttp.onreadystatechange=function() 
     {
         if (this.readyState == 4 && this.status == 200) 
